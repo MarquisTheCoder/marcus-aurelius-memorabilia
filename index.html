@@ -2,45 +2,48 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Pretty White Box</title>
+    <title>Marcus Aurelius</title>
     <link rel="stylesheet" href="css/style.css">
 
+<!--    jquery import -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="stoic.js"></script>
 </head>
 <body>
 
-<script src="stoic.js">
 
-</script>
 
-<script>
-     (function(){
 
-        let quote = getQuote();
-
-        let interval = setInterval(function(){
-            quote = getQuote();
-
-             let quoteClass = document.getElementsByClassName('quote')[0];
-            quoteClass.innerHTML = quote.body;
-        }, 500);
-
-     }());
-
-</script>
-
-    <div class="container">
-
+    <div class="fade-in container">
         <div class="box-shadow white-box">
             <a href="https://www.youtube.com/watch?v=rqqjU7zCI10">
                 <img src="https://www.biography.com/.image/t_share/MTgxMDA5NzU3ODkxNDcwNDI0/marcus-aurelius-gettyimages-122316830.jpg" alt="">
             </a>
-
-        </div>
-        <q class="quote">
-
-            </q>
         </div>
 
+        <div class="fade-in" id="quote"></div>
+
+    </div>
+
+
+<script>
+
+
+     (function(){
+          const quoteReference = '<br> -Marcus Aurelius';
+          const quoteId = $('#quote');
+
+          quoteId.html( getQuote() + quoteReference);
+          let interval = setInterval(function(){
+               quoteId.fadeOut(2000, function(){
+                    quoteId.html(getQuote() + quoteReference);
+                    quoteId.fadeIn(2000);
+               });
+          }, 10 * 1000);
+
+     }());
+
+</script>
 
 </body>
 </html>

@@ -16,9 +16,9 @@
     function getQuote(){
          let http = new XMLHttpRequest();
          http.open('GET', url, false);
-         http.responseType = 'json';
-         http.send(null)
-         return http.response
+         http.send(null);
+         let response = JSON.parse(http.response);
+         return response.body;
          
     }
     

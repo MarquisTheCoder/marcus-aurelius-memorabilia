@@ -3,6 +3,11 @@
     margin: 0em;
     padding: 0em;
 }
+
+@font-face {
+    font-family: 'Orpheus';
+    src('../fonts/Orpheus.tff') format('ttf');
+}
 body{
     background-color: #DC6161;
     background-image:  url('https://i.pinimg.com/originals/4c/ee/03/4cee039c9ce2886388e779e48bd50cf0.jpg');
@@ -31,8 +36,44 @@ img{
     background: linear-gradient( #AE862581, #F7E8FA81);
 
 }
-.quote{
+#quote{
+    display: flex;
+    position: absolute;
+    bottom: 20px;
     color: antiquewhite;
+    max-width: 20em;
+    height: 200px;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: 'Orpheus', Arial, SansSerif;
+    align-content: center;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.1em;
+
+}
+
+.fade-in{
+    animation: fadeIn 5.5s;
+}
+
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    0%{
+        opacity: 100;
+    }
+    100%{
+        opacity: 0;
+    }
+
 }
 .bust{
     height: 30em;
