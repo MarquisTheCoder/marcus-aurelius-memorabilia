@@ -9,7 +9,7 @@
     src('../fonts/Orpheus.tff') format('ttf');
 }
 body{
-    background-color: #DC6161;
+    background-color: black;
     background-image:  url('https://i.pinimg.com/originals/4c/ee/03/4cee039c9ce2886388e779e48bd50cf0.jpg');
     background-size: cover;
 }
