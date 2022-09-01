@@ -3,9 +3,9 @@
 <div align="center">
   
   <h1>
-    
+    <a href="https://www.youtube.com/watch?v=oc358254_40">
     Marcus Aurelius
-    
+    </a>
   </h1>
   <div>
     
@@ -21,10 +21,10 @@
   
 </div>
 
-##
+<hr>
 
 
-[![showcase image](https://github.com/MarquisTheCoder/marcus-aurelius-memorabilia/blob/main/images/marcus.png)](https://www.youtube.com/watch?v=rqqjU7zCI10)
+[![showcase image](https://github.com/MarquisTheCoder/marcus-aurelius-memorabilia/blob/main/images/marcus.png)](https://marquisthecoder.github.io/marcus-aurelius-memorabilia/)
 <hr>
 
 <div align="center"> 
