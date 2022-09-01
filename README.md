@@ -25,7 +25,7 @@
 
 
 [![showcase image](https://github.com/MarquisTheCoder/marcus-aurelius-memorabilia/blob/main/images/marcus.png)](https://www.youtube.com/watch?v=rqqjU7zCI10)
-
+<hr>
 
 <div align="center"> 
   
@@ -39,4 +39,19 @@
   
   Five of the main themes in this book are: change, death and the shortness of life; the role and importance of the     rational mind and will; dealing with others and accepting their shortcomings; avoiding the chase for pleasure and     fame; and living according to nature and fully accepting its course.
   
+ </div>
+ 
+ <hr>
+ 
+ <div align="center">
+  
+  <q><i>All men are made one for another: either then teach them better or bear with them.</i></q>
+  <br>
+  <strong>-Marcus Antonius Aurelius</strong>
+  
+  <q><i>I wish to to teach others and have them teach me as we should all bear each other.</i></q>
+  <br>
+  <strong>-Deshawn Marquis Williams</strong>
+  
 </div>
+<hr>
