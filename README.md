@@ -21,7 +21,7 @@
   
 </div>
 
-##
+<hr>
 
 
 [![showcase image](https://github.com/MarquisTheCoder/marcus-aurelius-memorabilia/blob/main/images/marcus.png)](https://marquisthecoder.github.io/marcus-aurelius-memorabilia/)
