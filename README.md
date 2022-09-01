@@ -17,9 +17,26 @@
     
     
   </div>
+  
+  
 </div>
 
 ##
 
 
 [![showcase image](https://github.com/MarquisTheCoder/marcus-aurelius-memorabilia/blob/main/images/marcus.png)](https://www.youtube.com/watch?v=rqqjU7zCI10)
+
+
+<div align="center"> 
+  
+  <h2>
+    
+    Meditations
+    
+  </h2>
+  
+  
+  
+  Five of the main themes in this book are: change, death and the shortness of life; the role and importance of the     rational mind and will; dealing with others and accepting their shortcomings; avoiding the chase for pleasure and     fame; and living according to nature and fully accepting its course.
+  
+</div>
