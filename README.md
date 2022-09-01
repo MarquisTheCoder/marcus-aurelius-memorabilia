@@ -24,7 +24,7 @@
 ##
 
 
-[![showcase image](https://github.com/MarquisTheCoder/marcus-aurelius-memorabilia/blob/main/images/marcus.png)](https://www.youtube.com/watch?v=rqqjU7zCI10)
+[![showcase image](https://github.com/MarquisTheCoder/marcus-aurelius-memorabilia/blob/main/images/marcus.png)](https://marquisthecoder.github.io/marcus-aurelius-memorabilia/)
 <hr>
 
 <div align="center"> 
