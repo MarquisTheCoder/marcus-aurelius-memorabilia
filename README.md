@@ -22,4 +22,4 @@
 ##
 
 
-![showcase image](https://github.com/MarquisTheCoder/marcus-aurelius-memorabilia/blob/main/images/marcus.png)
+[![showcase image](https://github.com/MarquisTheCoder/marcus-aurelius-memorabilia/blob/main/images/marcus.png)](https://www.youtube.com/watch?v=rqqjU7zCI10)
