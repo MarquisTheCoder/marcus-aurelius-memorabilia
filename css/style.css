@@ -10,9 +10,9 @@ body{
 }
 .container{
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    align-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
     height: 100vh;
 }
@@ -31,7 +31,9 @@ img{
     background: linear-gradient( #AE862581, #F7E8FA81);
 
 }
-
+.quote{
+    color: antiquewhite;
+}
 .bust{
     height: 30em;
 }

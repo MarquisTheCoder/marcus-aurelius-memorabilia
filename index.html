@@ -4,19 +4,42 @@
     <meta charset="UTF-8">
     <title>Pretty White Box</title>
     <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
 
+<script src="stoic.js">
+
+</script>
+
 <script>
+     (function(){
+
+        let quote = getQuote();
+
+        let interval = setInterval(function(){
+            quote = getQuote();
+
+             let quoteClass = document.getElementsByClassName('quote')[0];
+            quoteClass.innerHTML = quote.body;
+        }, 500);
+
+     }());
 
 </script>
 
     <div class="container">
-        <div class="box-shadow white-box">
-            <img src="https://www.biography.com/.image/t_share/MTgxMDA5NzU3ODkxNDcwNDI0/marcus-aurelius-gettyimages-122316830.jpg" alt="">
-        </div>
 
-    </div>
+        <div class="box-shadow white-box">
+            <a href="https://www.youtube.com/watch?v=rqqjU7zCI10">
+                <img src="https://www.biography.com/.image/t_share/MTgxMDA5NzU3ODkxNDcwNDI0/marcus-aurelius-gettyimages-122316830.jpg" alt="">
+            </a>
+
+        </div>
+        <q class="quote">
+            this is
+            </q>
+        </div>
 
 
 </body>
